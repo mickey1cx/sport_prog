@@ -2,7 +2,7 @@
 
 import sys
 
-user_input = sys.stdin.readline
+user_input = sys.stdin.readline     # for fast input
 
 params = user_input().split()
 n, q = map(int, params)
