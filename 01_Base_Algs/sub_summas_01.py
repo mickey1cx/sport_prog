@@ -20,3 +20,13 @@ for i in range(q):
     result[i] = pref_sum[r] - pref_sum[l - 1]
 
 print(*result, sep='\n')
+
+# https://stepik.org/lesson/307317/step/6?discussion=1466813&thread=solutions&unit=289405
+# from sys import stdin
+# from itertools import accumulate, starmap
+#
+# reader = (map(int, line.split()) for line in stdin)
+# n, q = next(reader)
+# sums = list(accumulate(next(reader)))
+# sums.append(0)
+# print(*starmap(lambda i, j: sums[j-1] - sums[i-2], reader), sep='\n')
